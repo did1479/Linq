@@ -1,0 +1,6 @@
+Q:2 - Difference between First() and FirstOrDefault()
+
+1). The output of First() is first element in the given collection which satisfy the spcified condition wherein FirstOrDefault() is also works in same way but
+it returns default value of the data type of a collection if a collection is empty or doesn't find any element that satisfies the condition.
+
+2). First() does not handle null values but FirstOrDefault() handles it by returning default value.
